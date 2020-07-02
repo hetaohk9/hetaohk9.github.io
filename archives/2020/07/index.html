@@ -6,11 +6,11 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo</title>
+  <title>Archives: 2020/7 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/archives/2020/07/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
@@ -152,258 +152,47 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="markdown-syntax" class="article article-type-markdown  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/07/02/syntax/">markdown syntax</a>
-    </h1>
-  
-
-        
-        <a href="/2020/07/02/syntax/" class="archive-article-date">
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2020" class="archive-year">2020</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-markdown">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2020/07/02/syntax/" class="archive-article-date">
   	<time datetime="2020-07-02T15:04:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-02</time>
 </a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a>Markdown 语法</h1><p>==========================</p>
-<h2 id="Markdown-标题"><a href="#Markdown-标题" class="headerlink" title="Markdown 标题"></a>Markdown 标题</h2><p>=================<br>使用#号表示1-6级标题，一级标题对应一个#号。</p>
-<hr>
-<h2 id="Markdown-段落格式"><a href="#Markdown-段落格式" class="headerlink" title="Markdown 段落格式"></a>Markdown 段落格式</h2><p>==================<br>段落的换行是使用两个以上的空格加回车<br>也可使用空行来表示换行</p>
-<h2 id="👆面有空行！"><a href="#👆面有空行！" class="headerlink" title="👆面有空行！"></a>👆面有空行！</h2><h3 id="Markdown-字体"><a href="#Markdown-字体" class="headerlink" title="Markdown 字体"></a>Markdown 字体</h3><p><em>斜体文字</em>  ※文字※<br><em>斜体文字</em>  或者下划线<br><strong>粗体文字</strong>  ※※文字※※（或者下划线）<br><strong><em>粗斜体文字</em></strong>   ※※※文字※※※（或者下划线）  </p>
-<hr>
-<h3 id="Markdwon-分割线"><a href="#Markdwon-分割线" class="headerlink" title="Markdwon 分割线"></a>Markdwon 分割线</h3><p>三个以上的星号减号或者下划线，行内除了空格外不能有其他字符<br>    - 删除线<br>    <del>Hello,World</del>   两条波浪线<br>    - 下划线<br>    使用HTML的<u>标签实现<br>    <u>Hello World!</u><br>    - 脚注<br>    &gt; 格式[^要注明的文本]<br>    [^FirstCode]: Hello,World!  </p>
-<hr>
-<h2 id="Markdown-列表"><a href="#Markdown-列表" class="headerlink" title="Markdown 列表"></a>Markdown 列表</h2><p>支持有序列表以及无序列表<br>无序列表使用*号、+号以及-号作为列表标记<br>有序列表使用数字并加上.号表示</p>
-<ol>
-<li>Hello</li>
-<li><h1 id="World"><a href="#World" class="headerlink" title="World  "></a>World  </h1><h2 id="Markdown-区块"><a href="#Markdown-区块" class="headerlink" title="Markdown 区块"></a>Markdown 区块</h2><blockquote>
-<p>引用</p>
-<blockquote>
-<p>区块</p>
-<blockquote>
-<p>可嵌套<br>如果在列表中放入区块，需要缩进,例如：  </p>
-</blockquote>
-</blockquote>
-</blockquote>
-</li>
-</ol>
-<ul>
-<li>第一项：<blockquote>
-<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello, World!"></a>Hello, World!</h1></blockquote>
-<h2 id="Markdown-代码"><a href="#Markdown-代码" class="headerlink" title="Markdown 代码"></a>Markdown 代码</h2>使用反引号来表示代码，例如：<br><code>printf(&quot;Hello World&quot;);</code></li>
-</ul>
-<hr>
-<p>代码区块使用一个Tab，例如:<br>    &lt; ?php<br>    echo <code>Hello World</code><br>    function test() {<br>        echo <code>test</code>;<br>    }</p>
-<hr>
-<p>也可以使用三个反引号来表示一段代码，并指定一种语言，也可以不用指定</p>
-<pre><code class="python">a = eval(input())
-print(a)</code></pre>
-<p>==================================================</p>
-<h2 id="Markdown-链接"><a href="#Markdown-链接" class="headerlink" title="Markdown 链接"></a>Markdown 链接</h2><blockquote>
-<p><a href="链接地址">链接名称</a><br>或者&lt;链接地址&gt;<br>例如：<br><a href="www.baidu.com">Baidu</a>  </p>
-</blockquote>
-<h3 id="高级链接"><a href="#高级链接" class="headerlink" title="高级链接"></a>高级链接</h3><p>使用变量来设置一个链接，然后在文档末尾对变量进行赋值<br>例如：百度的网址为<a href="1">Baidu</a><br>[1]: <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a><br>================================================</p>
-<h2 id="Markdown-图片"><a href="#Markdown-图片" class="headerlink" title="Markdown 图片"></a>Markdown 图片</h2><blockquote>
-<p>语法格式：<img src="%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="alt 属性文本"><br>语法格式：<img src="%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="alt 属性文本" title="可选标题"><br>例如:<br><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标" title="RUNOOB"><br>也可以在图片地址处使用变量表示，在文档末尾对变量进行赋值<br>Markdown目前还没办法指定图片的高度和宽度，如果需要，需要使用<img>标签<br>======================================================</p>
-</blockquote>
-<h2 id="Markdown-表格"><a href="#Markdown-表格" class="headerlink" title="Markdown 表格"></a>Markdown 表格</h2><p>使用 | 来分割不同的单元格，使用 - 来分割表头和其他行<br>|  表头 |表头 |<br>| :—-: |:——–:|<br>|单元格 | 单元格 |</p>
-<blockquote>
-<p>设置对齐   </p>
-<ul>
-<li>-: 设置内容和标题栏右对齐</li>
-<li>:- 设置内容和标题栏左对齐</li>
-<li><h1 id="设置内容和标题栏剧中对齐"><a href="#设置内容和标题栏剧中对齐" class="headerlink" title=":-: 设置内容和标题栏剧中对齐"></a>:-: 设置内容和标题栏剧中对齐</h1></li>
-</ul>
-</blockquote>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/07/02/syntax/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
         </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-My-First-Blog" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+    	 
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/30/My-First-Blog/">My First Blog</a>
+      <a class="archive-article-title" href="/2020/07/02/syntax/">markdown syntax</a>
     </h1>
   
 
-        
-        <a href="/2020/06/30/My-First-Blog/" class="archive-article-date">
-  	<time datetime="2020-06-30T04:11:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-30</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p>
+        <div class="article-info info-on-right">
+          
+          
 
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/30/My-First-Blog/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  
+    </div></section>
+  
+
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/30/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2020/06/30/hello-world/" class="archive-article-date">
-  	<time datetime="2020-06-30T04:08:18.670Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-30</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/30/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-  
 
 
           </div>
@@ -425,9 +214,9 @@ print(a)</code></pre>
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
+		isHome: false,
 		isPost: false,
-		isArchive: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
